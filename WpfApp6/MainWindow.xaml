@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfApp6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp6"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="639" Width="499" Background="#FFC5C3C3"
+    ResizeMode="NoResize">
+    <Grid Margin="0,0,0,-16">
+        <TextBox x:Name="Name_box" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus"  TextWrapping="Wrap"  Text="Name" Margin="46,38,47,541" FontSize="20" Width="382" Height="36.04"/>
+        <TextBox x:Name="Surname_box" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" TextWrapping="Wrap" Text="Surname" Margin="46,94,47,485" FontSize="20" Width="382" Height="36.04"/>
+        <TextBox x:Name="Age_box" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" TextWrapping="Wrap" Text="Age" Margin="46,150,47,429" FontSize="20" Width="382" Height="36.04"/>
+        <TextBox x:Name="Phone_box" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" TextWrapping="Wrap" Text="Phone" Margin="46,206,47,373" FontSize="20" Width="382" Height="36.04"/>
+        <Button Content="Insert" Margin="46,294,276,275" Click="ButtonInsert_Click" Width="153" Height="46.04"/>
+        <Button Content="Update" Margin="275,294,47,275" Click="ButtonUpdate_Click" Width="153" Height="46.04"/>
+        <Button Content="Delete" Margin="46,370,276,199" Click="ButtonDelete_Click" Width="153" Height="46.04"/>
+        <Button Content="GetAll" Margin="275,370,47,199" Click="ButtonGetAll_Click" Width="153" Height="46.04"/>
+
+    </Grid>
+
+</Window>
